@@ -1,8 +1,10 @@
 import { createStore } from "vuex";
-import availableDates from './modules/availableDates'
+import availableDates from "./modules/availableDates";
 
-export default createStore({
+const store = createStore({
   modules: {
     availableDates
   }
-});
+})
+
+export default store
